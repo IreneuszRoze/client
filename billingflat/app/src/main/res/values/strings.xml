@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Rachunki za media</string>
+
+    <string-array name="Planets">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+    <string name="counter">Licznik</string>
+    <string name="number">Nr</string>
+    <string name="settled">Rozliczony</string>
+    <string name="current">Bieżący</string>
+    <string name="date">Data</string>
+    <string name="payment">Płatność</string>
+    <string name="curency">zł</string>
+    <string name="payment_sun">Suma płatność</string>
+    <string name="woda_dostarczenie_scieki">Dostarczenie i ścieki</string>
+    <string name="woda_podgrzanie">Podgrzanie</string>
+    <string name="woda_cyrkulacja">Opłata cyrkulacyjna</string>
+    <string name="woda_stala">Opłata stała</string>
+    <string name="preference_file_key">bills_file</string>
+    <string name="preference_email">bills_email</string>
+</resources>

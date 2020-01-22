@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="pl.iroze.billingflat.FragmentStart">
+
+    <Button
+        android:id="@+id/btn_fragment_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textSize="@dimen/buttonFontSize"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/btn_fragment_list_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista mieszkan (listflat)"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/btn_fragment_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis mieszkania"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/btn_fragment_counter_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lista liczników, liczniki ze stanami Flat"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/btn_fragment_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis licznika"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <Button
+        android:id="@+id/btn_fragment_states"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wprowadzenie stanow" />
+
+</LinearLayout>

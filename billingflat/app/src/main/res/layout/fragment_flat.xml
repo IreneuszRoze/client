@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/flat_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/flat_settlement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TODO suma zaległosci" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/counters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wprowadz stany liczników"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/settlementes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokaż rozliczenie"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/button_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokaż stawki"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powrót"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</LinearLayout>
